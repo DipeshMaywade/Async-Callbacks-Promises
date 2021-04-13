@@ -1,11 +1,10 @@
 function greeting(name) {
-    console.log(`Hello ${name}, welcome to Scotch!`);
+    console.log(`Hello ${name}, welcome..!`);
   }
 
   function introduction(firstName, lastName, callback) {
-    const fullName = `${firstName} ${lastName}`;
-  
+    const fullName = `${firstName} and ${lastName}`;
     callback(fullName);
   }
   
-  introduction('Chris','Nwamba', greeting);
+  introduction('Rohit','Virat', greeting);
